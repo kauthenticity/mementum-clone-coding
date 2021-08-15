@@ -1,0 +1,8 @@
+body{
+  background: linear-gradient(
+    to right,
+    rgba(232, 232, 232, 0.3),
+    rgba(191, 191, 191, 0.3)),
+    url("../imgs/img2.jpeg");
+    background-size : cover;
+}

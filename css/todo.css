@@ -1,0 +1,45 @@
+.todo_list {
+  text-align : center;
+  font-size : 20px;
+  color : white;
+}
+
+#todo_input{
+  text-align : center;
+  width : 300px;
+  height : 30px;
+  border : none;
+  background-color : rgba(0, 0, 0, 0);
+  border-bottom : 2px solid white;
+  color : white;
+}
+
+#todo_input:focus{
+  text-align : center;
+  outline : none;
+  border : none;
+  background-color : rgba(0, 0, 0, 0);
+  border-bottom : 2px solid white;
+  color : white;
+}
+
+input[type="checkbox"]{
+  display : none;
+}
+
+input[type="checkbox"] + label span{
+  display : inline-block;
+  width : 24px;
+  height : 24px;
+  margin : -2px 10px 0 0;
+  vertical-align : middle;
+  background: url(checkbox.svg) left top no-repeat;
+  cursor : pointer;
+  background-size : cover;
+}
+
+input[type="checkbox"]:checked+ label span {
+  background : url(checkbox.svg) -26px top no-repeat;
+  background-size: cover;
+}
+
